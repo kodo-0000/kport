@@ -14,4 +14,5 @@ set( KPT_HEADER
         ${PROJECT_BINARY_DIR}/kport/version.h
 )
 
-install(FILES KPT_HEADER DESTINATION include/kport)
+install(FILES ${KPT_HEADER} DESTINATION include/kport)
+
